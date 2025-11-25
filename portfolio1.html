@@ -1,0 +1,190 @@
+<!--
+=================================================================================================================================================================================
+FILE NAME   : portfolio1.html
+AUTHOR      : Adrian Cauguiran
+DESCRIPTION : Portfolio 1 Page for "Introduction to Some Computing Informative Website". All my icons are derived, edited from https://feathericons.com/
+COPYRIGHT   : © 2025 Adrian Cauguiran. All rights reserved.
+=================================================================================================================================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Some Computing</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html">
+                <button class="home-btn">    
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    Home
+                </button>
+            </a>
+            <svg class="icon breadcrumb-separator" viewBox="0 0 24 24">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+
+            <span class="breadcrumb-current">Portfolio 1</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-grid">
+            <div>
+                <div class="card">
+                    <!-- Article Header -->
+                    <div>
+                        <h1 class="article-title">
+                            Portfolio 1: Computer Science as a Discipline and the 5 Computing Disciplines and Majors
+                        </h1>
+                        
+                        <!-- Author Info -->
+                        <div class="author-section">
+                            <div class="avatar"><img src="images/GRAD_PIC.png" width="40"/> </div>
+                            <div>
+                                <div class="author-name">Adrian Cauguiran</div>
+                                <button class="author-email">
+                                    <svg class="icon icon-sm" viewBox="0 0 24 24">
+                                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </svg>
+                                    31200126@usc.edu.ph
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Article Content -->
+                    <div>
+                        <p class="text-content">
+                            What are the 5 different computing disciplines? What makes them different from each other? As computer science is a discipline in itself, what is it about? This Computing discipline doesn’t hold a single true definition; the discipline itself varies and is multidisciplinary, and includes many other different sciences and disciplines. Schools like the University of Joensuu in Finland aimed to properly define the discipline by means of its theoretical and empirical research traditions from the journal article of Tedre (2007, p. 1). This gave way to the creation of the course for the school, entitled “The Philosophy of Computer Science”. Which, at its core, is to answer the question of why this specific discipline doesn’t have a unified methodological definition.
+                        </p>
+
+                        <p class="text-content">
+                            While other definitions seem to stem from the history of the discipline rather than from its different traditions, according to Denning (1999), computer science originates from the roots of algorithmic theory and logic theory in the 1940s, citing works from Kurt Gödel and Alan Turing. According to Denning, the definition of the course is the study of algorithmic processes that manipulate information, but he also stated that this definition was too narrow. Unlike that of the journal article from Tedre (2007), Denning (1999) emphasized the need for user-centered concerns, which are clearly tied to the five distinct disciplines of computing: computer science, computer engineering, software engineering, information systems, and information technology (Lunt & Ekstrom, 2008).
+                        </p>
+
+                        <p class="text-content">
+                            When both articles are viewed together, they offer a cohesive view of the 5 different disciplines. The article by Denning (1999) offers a historical overview and the core of the discipline’s method of thinking, which is algorithmic. And the paper from Tedre acts as a direct response to the ‘narrow’ definition by broadening the view with its different traditions to define the discipline.
+                        </p>
+
+                        <p class="text-content">
+                            In essence, the core of computing can be summarized into one question, which is stated by Denning (1999) as “What can be (efficiently) automated?” This question can be fundamentally answered by each of the five different computing disciplines. A computer scientist answers it by focusing on theory and a variety of algorithms. A software engineer answers it by creating a safe, secure, and reliable process to build the solution. A computer engineer answers the question by creating hardware designed to run the solution. An information systems professional answers it by applying the solution within a certain organizational context. An information technology professional answers it by ensuring the infrastructure in relation to the solution is used efficiently and effectively (Computing Curricula, 2005; Hopcroft, 2007; Lunt & Ekstrom, 2008).
+                        </p>
+
+                        <!-- References Section -->
+                        <div class="references-section">
+                            <h2>References</h2>
+                            <div class="references-list">
+                                <div class="reference-item" onclick="openReference('http://www.acm.org/education/curricula.html#IT2005.')">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    <span>Computing Curricula: Information Technology Volume; http://www.acm.org/education/curricula.html#IT2005.</span>
+                                </div>
+                                <div class="reference-item" onclick="openReference('https://denninginstitute.com/pjd/PUBS/ENC/cs99.pdf')">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    <span>Denning, P.J. (1999). COMPUTER SCIENCE: THE DISCIPLINE.</span>
+                                </div>
+                                <div class="reference-item" onclick="openReference('https://doi.org/10.1145/1283920.1283943')">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    <span>Hopcroft, J. E. (2007). Computer science. In ACM eBooks (p. 1986). https://doi.org/10.1145/1283920.1283943</span>
+                                </div>
+                                <div class="reference-item" onclick="openReference('https://www.laccei.org/LACCEI2008-Honduras/Papers/CD092_Lunt.pdf#:~:text=Information%20systems%20has%20a%20strong%20emphasis%20on,of%20information%20systems%2C%20networks%2C%20programming%20and%20security.')">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    <span>Lunt, B. M., & Ekstrom, J. K. (2008). What distinguishes each of the major computing disciplines. In Sixth LACCEI International Latin American and Caribbean Conference for Engineering and Technology (LACCEI’2008)“Partnering to Success: Engineering, Education, Research and Development” June</span>
+                                </div>
+                                <div class="reference-item" onclick="openReference('https://jite.org/documents/Vol6/JITEv6p105-122Tedre266.pdf')">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    <span>Tedre, M. (2007). Know your discipline: teaching the philosophy of computer science. Journal of Information Technology Education, 6. https://jite.org/documents/Vol6/JITEv6p105-122Tedre266.pdf</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div>
+                <div class="card sidebar-card">
+                    <div class="quick-actions">
+                        <h3>Quick Actions</h3>
+                        <div class="quick-actions-buttons">
+                            <button class="btn btn-outline btn-sm btn-full">
+                                <a href="../PDFs/[Cauguiran]-G2-CIS1102N-Portfolio1.pdf" download>
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" x2="12" y1="15" y2="3"></line>
+                                    </svg>
+                                    Download PDF
+                                </a>
+                            </button>
+                                <button class="btn btn-outline btn-sm btn-full" onclick="copyCurrentPageLink()">
+                                    <svg class="icon" viewBox="0 0 24 24">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    Share
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts Functions -->
+    <script>
+        
+        function copyCurrentPageLink() {
+            const currentUrl = window.location.href;
+            navigator.clipboard.writeText(currentUrl)
+                .then(() => {
+                    alert('Current page link copied to clipboard!');
+                })
+                .catch(err => {
+                    console.error('Failed to copy link: ', err);
+                });
+        }
+
+        function openReference(url) 
+        {
+            window.open(url, '_blank');
+        }
+
+        function CopyLink(evt) 
+        {
+            
+        }
+    </script>
+</body>
+</html>
